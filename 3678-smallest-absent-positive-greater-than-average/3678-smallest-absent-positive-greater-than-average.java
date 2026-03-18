@@ -1,23 +1,30 @@
 class Solution {
     public int smallestAbsent(int[] nums) {
-         int sum = 0;
-        int n = nums.length;
+        int sum = 0;
+
         for (int num : nums) {
             sum += num;
         }
-        double avg = (double) sum / n;
-        java.util.HashSet<Integer> set = new java.util.HashSet<>();
-        for (int num : nums) {
-            set.add(num);
-        }
-        int candidate = (int) Math.floor(avg) + 1;
+
+        double avg = (double) sum / nums.length;
+
+        int candidate = (int) avg + 1;
 
         while (true) {
-            if (candidate > 0 && !set.contains(candidate)) {
+            boolean found = false;
+
+            for (int num : nums) {
+                if (num == candidate) {
+                    found = true;
+                    break;
+                }
+            }
+
+            if (candidate > 0 && !found) {
                 return candidate;
             }
+
             candidate++;
         }
-        
     }
 }
