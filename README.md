@@ -6,11 +6,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/snehil9988/75DaysLeetcodeChallenge/tree/master/0049-group-anagrams) |
 | [0347-top-k-frequent-elements](https://github.com/snehil9988/75DaysLeetcodeChallenge/tree/master/0347-top-k-frequent-elements) |
+| [3678-smallest-absent-positive-greater-than-average](https://github.com/snehil9988/75DaysLeetcodeChallenge/tree/master/3678-smallest-absent-positive-greater-than-average) |
 ## Hash Table
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/snehil9988/75DaysLeetcodeChallenge/tree/master/0049-group-anagrams) |
 | [0347-top-k-frequent-elements](https://github.com/snehil9988/75DaysLeetcodeChallenge/tree/master/0347-top-k-frequent-elements) |
+| [3678-smallest-absent-positive-greater-than-average](https://github.com/snehil9988/75DaysLeetcodeChallenge/tree/master/3678-smallest-absent-positive-greater-than-average) |
 ## String
 |  |
 | ------- |
